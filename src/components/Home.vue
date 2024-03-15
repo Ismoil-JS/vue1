@@ -70,6 +70,7 @@
         border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
+        box-sizing: border-box;
     }
     th{
         background-color: #00000087;

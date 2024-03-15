@@ -70,6 +70,7 @@
     background: #ffffff;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
     padding: 40px 55px 45px 55px;
+    box-sizing: border-box;
     border-radius: 15px;
     transition: all .3s;
 }
@@ -101,12 +102,14 @@ form {
 .form-group input {
     margin-top: 5px;
     padding: 10px;
+    box-sizing: border-box;
     border-radius: 5px;
     border: 1px solid #ced4da;
 }
 
 .btn {
     padding: 12px;
+    box-sizing: border-box;
     border-radius: 5px;
     border: none;
     background-color: #007bff;
@@ -124,7 +127,14 @@ form {
     border: 1px solid #f5c6cb;
     border-radius: 5px;
     padding: 10px;
+    box-sizing: border-box;
     text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .auth-inner {
+        max-width: 300px;
+    }
 }
 
 </style>
